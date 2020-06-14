@@ -12,6 +12,7 @@
         [SerializeField] private GameObject _fbx;
 
         public int CoinCost => _coinCost;
+        public GameObject Fbx => _fbx;
     }
 }
 

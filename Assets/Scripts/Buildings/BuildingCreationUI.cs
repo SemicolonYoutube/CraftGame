@@ -19,7 +19,7 @@ namespace CraftGame
             foreach (Building building in _database.Buildings)
             {
                 BuildingSelectionUI createdSelection = Instantiate(_prefabSelection, _containerParent, false);
-                createdSelection.Init(building.BuildingName, building.BuildingData.CoinCost.ToString(), building.BuildingSprite);
+                createdSelection.Init(building.BuildingName, building.BuildingData.CoinCost.ToString(), building.BuildingSprite, building);
             }
         }
 

@@ -12,12 +12,21 @@ namespace CraftGame
         [SerializeField] private TextMeshProUGUI _titleText;
         [SerializeField] private TextMeshProUGUI _costText;
         [SerializeField] private Image _image;
+        [SerializeField] private BuildingVariable _inPlacementBuilding;
 
-        public void Init(string title, string cost, Sprite sprite)
+        private Building _buildingReferenced;
+        
+        public void Init(string title, string cost, Sprite sprite, Building buildingReferenced)
         {
             _titleText.SetText(title);
             _costText.SetText(cost);
             _image.sprite = sprite;
+            _buildingReferenced = buildingReferenced;
+        }
+
+        public void AssignInPlacementBuilding()
+        {
+            _inPlacementBuilding.Value = _buildingReferenced;
         }
     }
 }
