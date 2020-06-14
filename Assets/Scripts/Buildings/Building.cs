@@ -17,15 +17,16 @@ namespace CraftGame
     {
         [SerializeField] private string _buildingName;
         [SerializeField] private Sprite _buildingSprite;
-        [SerializeField] private BuildingData _buildingData;
+        [SerializeField] private BuildingData[] _buildingData;
         [SerializeField] private Renderer _groundStateFbx;
 
+        private int _level = 0;
         private GameObject _fbx;
         private int _nbTriggerCollider;
         
         public string BuildingName => _buildingName;
         public Sprite BuildingSprite => _buildingSprite;
-        public BuildingData BuildingData => _buildingData;
+        public BuildingData BuildingData => _buildingData[_level];
         public int NbTriggerCollider => _nbTriggerCollider;
         
         private void OnTriggerEnter(Collider other)

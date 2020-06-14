@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11056ed44c4a88b4393fc1aeddd17cd4, type: 3}
+  m_Name: SellingBuildingLevel3
+  m_EditorClassIdentifier: 
+  _maxWorker: 3
+  _coinCost: 300
+  _fbx: {fileID: 3429255836917917758, guid: 979355f85312650408dd4090b2363648, type: 3}

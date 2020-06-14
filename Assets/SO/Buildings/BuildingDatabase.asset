@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: BuildingDatabase
   m_EditorClassIdentifier: 
   _buildings:
-  - {fileID: 6770388149843792089, guid: 89d70db9cc75bac4c839efd587a8a0f1, type: 3}
+  - {fileID: 7554061493480307082, guid: 83037e0a75f4b144083268311d65e550, type: 3}
+  - {fileID: 387394882162843899, guid: 34fcf80acb6a4eb46949fbb4a2c6f7d5, type: 3}
+  - {fileID: 2636940405155822614, guid: 2c231d139e5542e4a8a36f5d52334ae4, type: 3}
+  - {fileID: 853779356799661056, guid: b77e45f8730fe8348985467ddcbbbd27, type: 3}
+  - {fileID: 1195859608564145797, guid: a78c24e586918cc4388dab163e5242b7, type: 3}
+  - {fileID: 2984484852529967673, guid: 91df4993e0a886447b7b57a86e6a1d23, type: 3}
+  - {fileID: 3067918008917710479, guid: 8cefa765b7dc0be4a9b1ab6e2e0322f3, type: 3}
