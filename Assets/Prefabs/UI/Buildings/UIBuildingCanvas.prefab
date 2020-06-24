@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 8700767960801651663}
   - component: {fileID: 8700767960801651656}
   - component: {fileID: 8700767960801651661}
+  - component: {fileID: 4414425380054984279}
   m_Layer: 5
   m_Name: UIBuildingCanvas
   m_TagString: Untagged
@@ -322,6 +323,33 @@ MonoBehaviour:
   _prefabSelection: {fileID: 1050201683769585708, guid: b63b86fd62203364996560fe2420fbdc,
     type: 3}
   _containerParent: {fileID: 8700767960727797055}
+--- !u!114 &4414425380054984279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8700767960801651658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13241e2cad8664f4797460cc2c398b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: bbca9a8ee5d89194f81b1e42f82e3341, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8700767960801651658}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8700767961791648026
 GameObject:
   m_ObjectHideFlags: 0

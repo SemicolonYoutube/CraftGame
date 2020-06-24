@@ -850,10 +850,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gap: 0.001
   _camera: {fileID: 963194227}
-  _creationUI: {fileID: 8700767962223828469}
   _layerNoRaycast:
     serializedVersion: 2
     m_Bits: 256
+  _rotationStep: 1
 --- !u!1001 &1745107558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2974,15 +2974,3 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8700767962223828467}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8700767962223828469 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8700767960801651661, guid: 01734025c00ebf349ae96484f7054ce8,
-    type: 3}
-  m_PrefabInstance: {fileID: 8700767962223828467}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8700767962223828468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55eede6a762d62d44944ae6224b2cd23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
