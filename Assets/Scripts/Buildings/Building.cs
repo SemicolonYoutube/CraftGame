@@ -36,7 +36,11 @@ namespace CraftGame
         private void Awake()
         {
             _buildingHeaderUI.gameObject.SetActive(false);
-            UpgradeHeaderUI();
+        }
+
+        private void Start()
+        {
+            UpgradeHeaderUI(); 
         }
 
         private void OnTriggerEnter(Collider other)
@@ -112,7 +116,7 @@ namespace CraftGame
 
         private void UpgradeHeaderUI()
         {
-            _buildingHeaderUI.UpdateUI(_level < _buildingData.Length - 1, _uiAssociated == null);
+            _buildingHeaderUI.UpdateUI(_level < _buildingData.Length - 1, true);
         }
         
         private void UpdateFbxAlpha(float alpha, bool updateTransparency)

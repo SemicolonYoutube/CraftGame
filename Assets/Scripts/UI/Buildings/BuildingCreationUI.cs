@@ -6,7 +6,7 @@ namespace CraftGame
     using System.Collections.Generic;
     using UnityEngine;
 
-    public class BuildingCreationUI : MonoBehaviour
+    public class BuildingCreationUI : BaseUI
     {
         [SerializeField] private BuildingDatabase _database;
         [SerializeField] private BuildingSelectionUI _prefabSelection;

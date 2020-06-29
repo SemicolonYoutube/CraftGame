@@ -3,14 +3,32 @@
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
+    using UnityEngine.Events;
 
     public class SwitchOnOff : MonoBehaviour
     {
-        [SerializeField] private GameObject _target;
+        [SerializeField] private UnityEvent _eventSwitchOn;
+        [SerializeField] private UnityEvent _eventSwitchOff;
+
+        private bool _on = false;
 
         public void Switch()
         {
-            _target.gameObject.SetActive(!_target.gameObject.activeInHierarchy);
+            if (_on)
+            {
+                _eventSwitchOff?.Invoke();
+                _on = false;
+            }
+            else
+            {
+                _eventSwitchOn?.Invoke();
+                _on = true;
+            }
+        }
+
+        public void Reset()
+        {
+            _on = false;
         }
     }
 }
